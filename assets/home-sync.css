@@ -1,0 +1,227 @@
+/* Featured work from the official AIR site, in the existing local layout. */
+.lab-intro__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 48px;
+}
+.lab-intro__copy {
+  min-width: 0;
+}
+.lab-intro h1 {
+  font-size: clamp(36px, 3.8vw, 49px);
+}
+.lab-intro__lede {
+  font-size: 17px;
+}
+.lab-intro__byline {
+  font-size: 14px;
+}
+.hero-comparison {
+  min-width: 0;
+  margin: 0;
+}
+.hero-comparison__stage {
+  --split: 42%;
+  position: relative;
+  isolation: isolate;
+  aspect-ratio: 1.58;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #263542;
+}
+.hero-comparison__stage:focus-within {
+  outline: 3px solid var(--accent);
+  outline-offset: 5px;
+}
+.hero-comparison__stage img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  user-select: none;
+  pointer-events: none;
+}
+.hero-comparison__pan {
+  clip-path: inset(0 calc(100% - var(--split)) 0 0);
+}
+.hero-comparison__divider {
+  position: absolute;
+  inset-block: 0;
+  left: var(--split);
+  width: 2px;
+  transform: translateX(-50%);
+  background: #ffffffd9;
+  pointer-events: none;
+}
+.hero-comparison__divider span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ffffffd9;
+  border-radius: 50%;
+  background: #1e3850;
+  color: #fff;
+  font: 500 23px/1 var(--sans);
+}
+.hero-comparison__tag,
+.hero-comparison__label {
+  position: absolute;
+  padding: 5px 8px;
+  border-radius: 3px;
+  background: #172330c9;
+  color: #fff;
+  font: 600 9px/1.4 var(--sans);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+.hero-comparison__tag {
+  top: 15px;
+  left: 15px;
+  border: 1px solid #ffffff70;
+}
+.hero-comparison__label {
+  bottom: 14px;
+}
+.hero-comparison__label--pan {
+  left: 14px;
+}
+.hero-comparison__label--rgb {
+  right: 14px;
+}
+.hero-comparison__range {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: ew-resize;
+  touch-action: pan-y;
+}
+.hero-comparison figcaption {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 13px;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.6;
+}
+.hero-comparison figcaption strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+.hero-comparison__note {
+  display: block;
+}
+.hero-comparison__hint {
+  flex-shrink: 0;
+  align-self: center;
+  color: var(--accent);
+}
+@media (max-width: 960px) {
+  .lab-intro__grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+  }
+  .hero-comparison {
+    max-width: 640px;
+    width: 100%;
+  }
+  .lab-intro h1 {
+    font-size: clamp(36px, 4.8vw, 49px);
+  }
+}
+@media (max-width: 520px) {
+  .hero-comparison__stage {
+    aspect-ratio: 1.45;
+  }
+  .hero-comparison figcaption {
+    flex-wrap: wrap;
+    gap: 5px 12px;
+  }
+}
+
+.home-selected {
+  padding-top: 10px;
+}
+.home-section__intro {
+  max-width: 720px;
+  margin: 20px 0 26px;
+  color: var(--muted);
+  font-size: 14px;
+}
+.home-papers {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px 26px;
+}
+.home-paper {
+  min-width: 0;
+}
+.home-paper__image {
+  display: flex;
+  aspect-ratio: 1.85;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  background: #fff;
+}
+.home-paper__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.home-paper__body {
+  padding-top: 15px;
+}
+.home-paper h3 {
+  margin: 5px 0 9px;
+  font-size: 19px;
+  font-weight: 600;
+}
+.home-paper__body > p:not(.eyebrow) {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.7;
+}
+.home-paper .text-link {
+  margin-top: 12px;
+  font-size: 12px;
+}
+.home-recruit__inner > div {
+  max-width: 730px;
+}
+.home-recruit__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  gap: 12px;
+}
+@media (max-width: 800px) {
+  .home-papers {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 520px) {
+  .home-papers {
+    grid-template-columns: 1fr;
+  }
+  .home-section__heading {
+    align-items: baseline;
+  }
+  .home-section__heading h2 {
+    font-size: 22px;
+  }
+}

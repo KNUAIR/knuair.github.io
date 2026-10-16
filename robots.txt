@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://knuair.github.io/sitemap-index.xml
