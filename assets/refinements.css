@@ -6,6 +6,8 @@
   --accent: #265b99;
   --surface: #f6f8fb;
   --shell: min(1280px, calc(100% - 64px));
+  --header-gutter: clamp(32px, 3vw, 48px);
+  --header-height: 96px;
 }
 
 body {
@@ -17,36 +19,43 @@ main {
 a {
   text-underline-offset: 4px;
 }
+/* The header spans the viewport independently of the reading-width shell. */
 .site-header {
   background: #fffffff5;
+  border-bottom: 1px solid var(--line);
 }
 .site-header__inner {
-  width: var(--shell);
-  min-height: 76px;
+  width: calc(100% - 2 * var(--header-gutter));
+  min-height: calc(var(--header-height) - 1px);
+  border-bottom: 0;
 }
 .wordmark {
-  gap: 10px;
-  font-size: 20px;
+  gap: 12px;
+  font-size: 28px;
   letter-spacing: -0.03em;
+  flex-shrink: 0;
 }
 .wordmark__glyph {
-  width: 27px;
-  height: 27px;
+  width: 38px;
+  height: 38px;
   color: var(--accent);
 }
 .wordmark__lab {
-  font-weight: 450;
+  font-weight: 600;
 }
 .desktop-nav {
-  gap: 27px;
-  font-size: 14px;
+  gap: clamp(28px, 3vw, 44px);
+  font-size: 20px;
+  font-weight: 700;
 }
-.desktop-nav a,
+.desktop-nav > a,
 .nav-dropdown summary {
-  border-bottom-width: 1px;
+  border-bottom-width: 2px;
 }
 .nav-dropdown__menu {
   box-shadow: 0 6px 20px #20283408;
+  font-size: 16px;
+  font-weight: 500;
 }
 .eyebrow {
   font: 600 11px/1.5 var(--sans);
@@ -568,10 +577,32 @@ a {
 }
 
 @media (width <= 1050px) {
+  :root {
+    --header-gutter: 32px;
+    --header-height: 80px;
+  }
+  .wordmark {
+    font-size: 24px;
+  }
+  .wordmark__glyph {
+    width: 32px;
+    height: 32px;
+  }
+  .mobile-nav__toggle {
+    min-height: 44px;
+    font-size: 14px;
+  }
   .mobile-nav__panel {
-    top: 76px;
-    max-height: calc(100dvh - 76px);
-    padding-inline: 32px;
+    top: var(--header-height);
+    max-height: calc(100dvh - var(--header-height));
+    padding-inline: var(--header-gutter);
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .mobile-nav__submenu a {
+    min-height: 44px;
+    font-size: 15px;
+    font-weight: 500;
   }
   .filter-panel {
     grid-template-columns: 1fr;
@@ -581,28 +612,15 @@ a {
 @media (width <= 720px) {
   :root {
     --shell: calc(100% - 40px);
-  }
-  .site-header__inner {
-    min-height: 66px;
+    --header-gutter: 20px;
+    --header-height: 72px;
   }
   .wordmark {
-    font-size: 19px;
+    font-size: 22px;
   }
   .wordmark__glyph {
-    width: 24px;
-    height: 24px;
-  }
-  .mobile-nav__panel {
-    top: 66px;
-    max-height: calc(100dvh - 66px);
-    padding-inline: 20px;
-  }
-  .mobile-nav__toggle {
-    min-height: 44px;
-  }
-  .mobile-nav__submenu a {
-    font-size: 14px;
-    min-height: 44px;
+    width: 30px;
+    height: 30px;
   }
   .lab-intro {
     padding-block: 108px 40px;
