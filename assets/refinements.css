@@ -780,3 +780,7 @@ a {
     text-align: left;
   }
 }
+
+/* Gallery stays open while photos are being prepared. */
+.gallery-empty { min-height: 34vh; }
+.gallery-empty p { margin: 0; color: #666; font-size: 20px; line-height: 1.6; }

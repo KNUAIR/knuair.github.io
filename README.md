@@ -22,8 +22,10 @@ Open http://127.0.0.1:4177/ in a browser. Root-relative asset paths need an HTTP
 
 ## Published content
 
-This repository includes only the public lab pages and the assets they use. Disabled Research/Projects pages, the temporary gallery and unused placeholder images were not imported. The personal portfolio, CV files and its Git history were not imported. GradOrient links to its existing project website at https://givingdragon.github.io/GradOrient/.
+This repository includes only the public lab pages and the assets they use. Disabled Research/Projects pages, the former gallery posts and unused placeholder images were not imported. The personal portfolio, CV files and its Git history were not imported. GradOrient links to its existing project website at https://givingdragon.github.io/GradOrient/.
 
 The Collaborators page is temporarily disabled and is absent from navigation, the sitemap and the published files. Its previous version remains in Git history. Student entries show names and membership dates without placeholder initials.
 
 To add or remove a page, update the navigation and `sitemap-0.xml` as appropriate. Keep unreleased content outside this public repository rather than hiding it with CSS.
+
+Gallery is open at `/gallery/` with the placeholder “Photos coming soon.” and no posts. Its link is included in both desktop and mobile navigation.
