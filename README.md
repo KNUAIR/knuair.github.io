@@ -32,10 +32,10 @@ Gallery is open at `/gallery/` with the placeholder “Photos coming soon.” an
 
 ## Student profile links
 
-Edit `data/student-profiles.json` to add each student's `homepage`, `github`, or `linkedin` URL. Leave unknown URLs empty; no placeholder icons are displayed. Then run:
+Edit `data/student-profiles.json` to add each student's `homepage` URL. Leave unknown URLs empty; those names remain plain text. Then run:
 
 ```sh
 python3 scripts/render-student-links.py
 ```
 
-Commit the JSON and generated `people/student/index.html` together. Links are rendered as accessible icons beside the student's name, open in a new tab, and work without JavaScript. To add a new student, add their card with `<!-- profile: Full Name -->` and `<!-- /profile: Full Name -->` markers around its heading, plus a matching JSON entry.
+Commit the JSON and generated `people/student/index.html` together. The student's name links directly to their homepage in the same tab, without social icons or JavaScript. To add a new student, add their card with `<!-- profile: Full Name -->` and `<!-- /profile: Full Name -->` markers around its heading, plus a matching JSON entry.
