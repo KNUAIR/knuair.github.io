@@ -3,13 +3,13 @@
   max-width: 680px;
   margin-top: 14px;
   color: var(--muted);
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .publication-archive__legend {
   margin-bottom: 24px;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .publication-card[id] {
@@ -20,7 +20,7 @@
   max-width: 800px;
   margin-top: 10px;
   color: var(--muted);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.7;
 }
 
@@ -42,16 +42,16 @@
   max-width: 820px;
   margin-top: 9px;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.7;
 }
 
 @media (width <= 720px) {
   .publication-header__description {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .publication-card--text .publication-card__abstract {
-    font-size: 13px;
+    font-size: 16px;
   }
 }

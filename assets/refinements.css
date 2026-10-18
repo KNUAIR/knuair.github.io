@@ -69,7 +69,7 @@ a {
   padding-bottom: 2px;
   border-bottom: 0;
   color: var(--accent);
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 550;
 }
 .text-link:hover {
@@ -128,7 +128,7 @@ a {
 }
 .home-section__heading .text-link {
   flex-shrink: 0;
-  font-size: 13px;
+  font-size: 14px;
 }
 .lab-research__grid {
   display: grid;
@@ -165,22 +165,22 @@ a {
 .news-item time {
   color: var(--muted);
   font-family: var(--sans);
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0;
   text-transform: none;
 }
 .news-item__category {
-  font: 500 10px/1.5 var(--sans);
+  font: 500 12px/1.5 var(--sans);
   letter-spacing: 0.05em;
 }
 .news-item h3 {
   margin-top: 5px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.4;
   letter-spacing: -0.015em;
 }
 .news-item h3 + p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
 }
 .home-recruit {
@@ -196,7 +196,7 @@ a {
 }
 .home-recruit p {
   margin-top: 6px;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0;
   font-weight: 400;
   color: var(--muted);
@@ -236,7 +236,7 @@ a {
   font-weight: 600;
 }
 .collection-group__header > p {
-  font: 500 12px/1.5 var(--sans);
+  font: 500 14px/1.5 var(--sans);
   color: var(--muted);
 }
 .research-item {
@@ -257,7 +257,7 @@ a {
 }
 .news-detail__body {
   max-width: 800px;
-  font-size: 16px;
+  font-size: 17px;
 }
 .news-detail__body p:first-child {
   font-size: 18px;
@@ -288,7 +288,7 @@ a {
 }
 .filter-panel label,
 .news-filter label {
-  font: 550 12px/1.5 var(--sans);
+  font: 550 14px/1.5 var(--sans);
   text-transform: none;
   letter-spacing: 0;
   color: var(--muted);
@@ -300,16 +300,16 @@ a {
   border-radius: 4px;
   padding-inline: 12px;
   background: #fff;
-  font-size: 14px;
+  font-size: 16px;
   min-width: 0;
 }
 .filter-panel__status {
   border-top: 0;
   padding-top: 0;
-  font: 400 12px/1.5 var(--sans);
+  font: 400 14px/1.5 var(--sans);
 }
 .filter-reset {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--accent);
   border-color: var(--accent);
 }
@@ -324,28 +324,28 @@ a {
 .publication-card--text h3 {
   max-width: 870px;
   margin-top: 8px;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
   letter-spacing: -0.012em;
   line-height: 1.45;
 }
 .publication-card--text .publication-card__meta {
-  font: 500 11px/1.5 var(--sans);
+  font: 500 12px/1.5 var(--sans);
   letter-spacing: 0.035em;
 }
 .publication-card--text .publication-card__authors {
   margin-top: 8px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.7;
 }
 .publication-card--text .publication-card__venue {
   margin-top: 4px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .publication-card--text .publication-card__topic {
   margin-top: 9px;
   color: var(--muted);
-  font: 400 12px/1.5 var(--sans);
+  font: 400 14px/1.5 var(--sans);
   text-transform: none;
   letter-spacing: 0;
 }
@@ -354,8 +354,8 @@ a {
 }
 .publication-card--text .publication-card__resources a {
   padding: 0;
-  min-height: 30px;
-  font-size: 13px;
+  min-height: 40px;
+  font-size: 15px;
   font-weight: 550;
   border: 0;
   color: var(--accent);
@@ -365,7 +365,7 @@ a {
 }
 .news-filter p {
   font-family: var(--sans);
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /* People: names and membership details. */
@@ -392,7 +392,7 @@ a {
   letter-spacing: -0.015em;
 }
 .person-card__position {
-  font: 400 12px/1.6 var(--sans);
+  font: 400 14px/1.6 var(--sans);
   color: var(--muted);
   text-transform: none;
   letter-spacing: 0;
@@ -440,7 +440,7 @@ a {
 }
 .professor-profile__content > header p {
   color: var(--muted);
-  font: 400 14px/1.6 var(--sans);
+  font: 400 16px/1.6 var(--sans);
   text-transform: none;
   letter-spacing: 0;
   margin-top: 10px;
@@ -452,7 +452,7 @@ a {
 .professor-profile__links a {
   color: var(--accent);
   border-bottom: 0;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
 }
 .professor-profile__links a:hover {
@@ -462,7 +462,7 @@ a {
   margin-top: 23px;
 }
 .professor-profile__body > p:first-child {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.75;
 }
 .professor-profile__body h3 {
@@ -483,7 +483,7 @@ a {
 }
 .professor-profile__research h4 {
   margin-top: 0;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
 }
 .professor-profile__research section {
@@ -524,7 +524,7 @@ a {
   letter-spacing: -0.025em;
 }
 .contact-message p {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.8;
   margin-top: 20px;
 }
@@ -556,12 +556,12 @@ a {
 }
 .site-footer p {
   margin-top: 7px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.7;
 }
 .site-footer__contact {
   text-align: right;
-  font-size: 13px;
+  font-size: 14px;
 }
 .site-footer__contact a:hover {
   color: var(--accent);
@@ -572,7 +572,7 @@ a {
   padding-top: 16px;
   border-top: 1px solid var(--line);
   color: var(--muted);
-  font-size: 11px;
+  font-size: 12px;
   text-align: center;
 }
 
@@ -637,14 +637,14 @@ a {
     margin-top: 23px;
   }
   .lab-intro__byline {
-    font-size: 14px;
+    font-size: 16px;
   }
   .lab-intro__links {
     gap: 12px 23px;
     margin-top: 20px;
   }
   .lab-intro__links .text-link {
-    font-size: 13px;
+    font-size: 15px;
   }
   .home-section__heading {
     gap: 12px;
@@ -654,7 +654,7 @@ a {
     font-size: 22px;
   }
   .home-section__heading .text-link {
-    font-size: 12px;
+    font-size: 14px;
   }
   .lab-research__grid {
     grid-template-columns: 1fr;
@@ -685,7 +685,7 @@ a {
     padding-block: 21px;
   }
   .news-item h3 {
-    font-size: 17px;
+    font-size: 19px;
   }
   .news-item time {
     grid-column: 1 / -1;
@@ -732,12 +732,12 @@ a {
     margin-bottom: 30px;
   }
   .publication-card--text h3 {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
   }
   .publication-card--text .publication-card__authors,
   .publication-card--text .publication-card__venue {
-    font-size: 13px;
+    font-size: 16px;
   }
   .people-grid {
     grid-template-columns: 1fr;
@@ -792,3 +792,14 @@ a {
 .person-card__name-link { color: inherit; text-decoration: none; }
 .person-card__name-link:hover { text-decoration: underline; text-underline-offset: 4px; }
 .person-card__name-link:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+
+/* Reading comfort across long records and compact cards. */
+.professor-profile__body > p:first-child { max-width: 72ch; }
+.professor-profile__body li,
+.professor-profile__research li,
+.professor-profile__biography li { font-size: 16px; line-height: 1.75; }
+.publication-card--text .publication-card__authors { max-width: 95ch; }
+.news-item h3 + p { max-width: 80ch; }
+.news-filter select { min-height: 44px; }
+.person-card__name-link { text-decoration: underline; text-decoration-color: #aab6c5; text-underline-offset: 4px; }
+.person-card__name-link:hover { color: var(--accent); text-decoration-color: currentColor; }
