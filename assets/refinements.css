@@ -784,3 +784,33 @@ a {
 /* Gallery stays open while photos are being prepared. */
 .gallery-empty { min-height: 34vh; }
 .gallery-empty p { margin: 0; color: #666; font-size: 20px; line-height: 1.6; }
+
+/* Student profiles: compact, accessible links next to the name. */
+.person-card__heading {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+}
+.person-card__heading h3 { margin: 0; }
+.person-card__socials { display: flex; align-items: center; gap: 2px; }
+.person-card__socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  color: #737373;
+  text-decoration: none;
+  transition: color 150ms ease, background-color 150ms ease;
+}
+.person-card__socials a:hover { color: #161616; background: #f1f1f1; }
+.person-card__socials a:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+.person-card__socials svg { display: block; flex-shrink: 0; }
+@media (pointer: coarse) {
+  .person-card__socials a { width: 40px; height: 40px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .person-card__socials a { transition: none; }
+}
