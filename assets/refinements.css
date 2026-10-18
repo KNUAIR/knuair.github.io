@@ -370,7 +370,7 @@ a {
 
 /* People: names and membership details. */
 .people-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 0 40px;
 }
 .person-card {
@@ -577,6 +577,9 @@ a {
 }
 
 @media (width <= 1050px) {
+  .people-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
   :root {
     --header-gutter: 32px;
     --header-height: 80px;
