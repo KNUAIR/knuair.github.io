@@ -803,3 +803,20 @@ a {
 .news-filter select { min-height: 44px; }
 .person-card__name-link { text-decoration: underline; text-decoration-color: #aab6c5; text-underline-offset: 4px; }
 .person-card__name-link:hover { color: var(--accent); text-decoration-color: currentColor; }
+
+/* Slightly denser on large desktop displays; preserve laptop/mobile sizing. */
+@media (min-width: 1600px) {
+  :root {
+    --shell: min(1200px, calc(100% - 64px));
+    --header-height: 88px;
+  }
+  .wordmark { font-size: 26px; }
+  .wordmark__glyph { width: 35px; height: 35px; }
+  .desktop-nav { font-size: 19px; gap: 38px; }
+  .lab-intro { padding-block: 136px 50px; }
+  .home-section { padding-block: 54px; }
+  .home-section__heading h2 { font-size: 23px; }
+  .team-header { padding-block: 118px 28px; }
+  .team-header h1 { font-size: 39px; }
+  .archive, .team-archive { padding-block: 40px 68px; }
+}

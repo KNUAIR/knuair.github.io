@@ -225,3 +225,11 @@
     font-size: 22px;
   }
 }
+
+@media (min-width: 1600px) {
+  .lab-intro__grid { gap: 44px; }
+  .lab-intro h1 { font-size: 46px; }
+  .lab-intro__lede { font-size: 18px; }
+  .home-selected { padding-top: 10px; }
+  .home-paper h3 { font-size: 20px; }
+}
