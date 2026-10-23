@@ -39,3 +39,22 @@ python3 scripts/render-student-links.py
 ```
 
 Commit the JSON and generated `people/student/index.html` together. The student's name links directly to their homepage in the same tab, without social icons or JavaScript. To add a new student, add their card with `<!-- profile: Full Name -->` and `<!-- /profile: Full Name -->` markers around its heading, plus a matching JSON entry.
+
+## Publication cards in news
+
+Publication news displays the same cards as `publications/index.html` directly below the announcement. That page is the source for titles, authors, venues, and available Paper/Code/Project links. News cards are generated into static HTML and work without JavaScript.
+
+After editing publication metadata, run:
+
+```sh
+python3 scripts/render-news-publications.py
+python3 scripts/render-news-publications.py --check
+```
+
+Commit the publication page and generated news HTML together. `--check` fails when cards need updating. To associate a news item with one or more papers, put a slot after its `news-detail__body`, using the publication cards' IDs separated by spaces:
+
+```html
+<!-- related-publications: paper-compsplat --><!-- /related-publications -->
+```
+
+The renderer fills the slot and adds the shared publication styles plus `assets/news-publications.css`. Do not edit generated cards inside the slot. General announcements have no slot.

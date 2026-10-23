@@ -1,0 +1,13 @@
+/* Cards reuse the Publications page's markup and typography. */
+.news-publications {
+  margin-top: 32px;
+  border-top: 1px solid var(--line);
+}
+
+.news-publications .publication-card--text {
+  padding-block: 24px;
+}
+
+.news-publications + .text-link {
+  margin-top: 28px;
+}
