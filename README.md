@@ -40,21 +40,25 @@ python3 scripts/render-student-links.py
 
 Commit the JSON and generated `people/student/index.html` together. The student's name links directly to their homepage in the same tab, without social icons or JavaScript. To add a new student, add their card with `<!-- profile: Full Name -->` and `<!-- /profile: Full Name -->` markers around its heading, plus a matching JSON entry.
 
-## Publication cards in news
+## Shared publication cards
 
-Publication news reuses the titles, authors, venues, topics, and available Paper/Code/Project links from `publications/index.html` directly below the announcement. Abstracts and author-explanation paragraphs are omitted from news cards. News cards are generated into static HTML and work without JavaScript.
+`data/publications.json` is the single source for Publications and News: one object per paper, identified by a stable `paper-...` ID. Each object holds its title, authors (including existing emphasis and contribution markers), venue, topics, and Paper/Code/Project resources. Keep unavailable resources empty.
 
-After editing publication metadata, run:
+`render_card()` in `scripts/render-publications.py` generates identical HTML for both pages. The card contains no extra summary or author-explanation paragraphs. Edit the JSON, then run:
 
 ```sh
-python3 scripts/render-news-publications.py
-python3 scripts/render-news-publications.py --check
+python3 scripts/render-publications.py
+python3 scripts/render-publications.py --check
 ```
 
-Commit the publication page and generated news HTML together. `--check` fails when cards need updating. To associate a news item with one or more papers, put a slot after its `news-detail__body`, using the publication cards' IDs separated by spaces:
+Commit the JSON and generated HTML together. The renderer updates the Publications list, counts, year filters, and every related news card in one run. `--check` fails if either page is out of date. Generated cards work without JavaScript. The older `render-news-publications.py` command delegates to this renderer.
+
+News text remains authored in each news page. Only the card slot is generated. To reference one or more publication objects below the news body, use their IDs separated by spaces:
 
 ```html
 <!-- related-publications: paper-compsplat --><!-- /related-publications -->
 ```
 
-The renderer fills the slot and adds the shared publication styles plus `assets/news-publications.css`. Do not edit generated cards inside the slot. General announcements have no slot.
+Do not edit generated cards in `publications/index.html` or inside news slots; edit the object or the shared card renderer. General announcements have no slot.
+
+Publication cards use `lab_member: true` to display AIR Lab authors in bold. Only `*` for equal contribution is shown; cards have no corresponding-author symbol, underlines, or author-style legend.

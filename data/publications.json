@@ -1,0 +1,961 @@
+[
+  {
+    "id": "paper-gradorient",
+    "code": "C16",
+    "type": "international-conference",
+    "group": "lab",
+    "year": 2027,
+    "title": "Gradient-Guided Orientation Learning for Weakly Supervised Oriented Object Detection",
+    "authors": [
+      {
+        "name": "Junyong Jang",
+        "lab_member": true,
+        "equal_contribution": true
+      },
+      {
+        "name": "Juheon Park",
+        "lab_member": true,
+        "equal_contribution": true
+      },
+      {
+        "name": "Minyoung Jeon",
+        "lab_member": true
+      },
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      }
+    ],
+    "venue": "WACV 2027 · Accepted",
+    "topics": [],
+    "resources": [
+      {
+        "label": "Project",
+        "url": "https://givingdragon.github.io/GradOrient/",
+        "new_tab": false
+      }
+    ],
+    "search_aliases": [
+      "IEEE/CVF Winter Conference on Applications of Computer Vision"
+    ]
+  },
+  {
+    "id": "paper-compmvr",
+    "code": "C15",
+    "type": "international-conference",
+    "group": "lab",
+    "year": 2026,
+    "title": "CompMVR: Compression-Aware Multi-View Restoration Using Diffusion Models for Geometrically Consistent 3D Reconstruction",
+    "authors": [
+      {
+        "name": "Dong-hwi Kim",
+        "equal_contribution": true
+      },
+      {
+        "name": "Chaewon Moon",
+        "equal_contribution": true
+      },
+      {
+        "name": "Hojun Song"
+      },
+      {
+        "name": "Dongbeom Kim"
+      },
+      {
+        "name": "Junyeong Jang"
+      },
+      {
+        "name": "Aro Kim"
+      },
+      {
+        "name": "Gahyeon Kim"
+      },
+      {
+        "name": "Heejung Choi"
+      },
+      {
+        "name": "Jehee Kim"
+      },
+      {
+        "name": "Gianella Cravioto"
+      },
+      {
+        "name": "Sohyun Lee"
+      },
+      {
+        "name": "Gyeongjin Choi"
+      },
+      {
+        "name": "EunHye Jeong"
+      },
+      {
+        "name": "Soo Ye Kim"
+      },
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      },
+      {
+        "name": "Sang-hyo Park"
+      }
+    ],
+    "venue": "SIGGRAPH Asia 2026 · Accepted",
+    "topics": [
+      "3D vision",
+      "Image & video"
+    ],
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1145/3829340.3842283"
+      },
+      {
+        "label": "Project",
+        "url": "https://mchaewon.github.io/CompMVR-project-page/"
+      }
+    ]
+  },
+  {
+    "id": "paper-compsplat",
+    "code": "C14",
+    "type": "international-conference",
+    "group": "lab",
+    "year": 2026,
+    "title": "CompSplat: Compression-aware 3D Gaussian Splatting for Real-world Video",
+    "authors": [
+      {
+        "name": "Hojun Song"
+      },
+      {
+        "name": "Heejung Choi"
+      },
+      {
+        "name": "Aro Kim"
+      },
+      {
+        "name": "Chae-yeong Song"
+      },
+      {
+        "name": "Gahyeon Kim"
+      },
+      {
+        "name": "Soo Ye Kim"
+      },
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      },
+      {
+        "name": "Sang-hyo Park"
+      }
+    ],
+    "venue": "BMVC 2026 · Accepted",
+    "topics": [
+      "3D vision",
+      "Image & video"
+    ],
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2602.09816"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/hojunking/CompSplat"
+      },
+      {
+        "label": "Project",
+        "url": "https://hojunking.github.io/webpages/CompSplat/"
+      }
+    ],
+    "search_aliases": [
+      "British Machine Vision Conference"
+    ]
+  },
+  {
+    "id": "paper-vips",
+    "code": "C13",
+    "type": "international-conference",
+    "group": "lab",
+    "year": 2026,
+    "title": "Video Can Teach PAN-Sharpening: PSF-Aware Cross-Domain Supervision",
+    "authors": [
+      {
+        "name": "Hyun-Ho Kim"
+      },
+      {
+        "name": "Munchurl Kim"
+      },
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      }
+    ],
+    "venue": "ECCV 2026",
+    "topics": [
+      "Remote sensing",
+      "Reliable learning"
+    ],
+    "resources": [],
+    "search_aliases": [
+      "European Conference on Computer Vision"
+    ]
+  },
+  {
+    "id": "paper-g2p",
+    "code": "C12",
+    "type": "international-conference",
+    "group": "lab",
+    "year": 2026,
+    "title": "G2P: Gaussian-to-Point Attribute Alignment for Boundary-Aware 3D Segmentation",
+    "authors": [
+      {
+        "name": "Hojun Song"
+      },
+      {
+        "name": "Chae-yeong Song"
+      },
+      {
+        "name": "Jeong-hun Hong"
+      },
+      {
+        "name": "Chaewon Moon"
+      },
+      {
+        "name": "Soo Ye Kim"
+      },
+      {
+        "name": "Yiyi Liao"
+      },
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      },
+      {
+        "name": "Sang-hyo Park"
+      }
+    ],
+    "venue": "ECCV 2026",
+    "topics": [
+      "3D vision"
+    ],
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2601.03510"
+      }
+    ],
+    "search_aliases": [
+      "European Conference on Computer Vision"
+    ]
+  },
+  {
+    "id": "paper-propfly",
+    "code": "C11",
+    "type": "international-conference",
+    "group": "lab",
+    "year": 2026,
+    "title": "PropFly: Learning to Propagate via On-the-Fly Supervision from Pre-trained Video Diffusion Models",
+    "authors": [
+      {
+        "name": "Wonyong Seo"
+      },
+      {
+        "name": "Jaeho Moon"
+      },
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      },
+      {
+        "name": "Soo Ye Kim"
+      },
+      {
+        "name": "Munchurl Kim"
+      }
+    ],
+    "venue": "CVPR 2026",
+    "topics": [
+      "Image & video",
+      "Reliable learning"
+    ],
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2602.20583"
+      },
+      {
+        "label": "Project",
+        "url": "https://kaist-viclab.github.io/PropFly_site/"
+      }
+    ],
+    "search_aliases": [
+      "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+    ]
+  },
+  {
+    "id": "paper-dakter",
+    "code": "J8",
+    "type": "international-journal",
+    "group": "lab",
+    "year": 2026,
+    "title": "Diffusion-Based Data Augmentation and Knowledge Distillation With Generated Soft Labels for Oil Spill Segmentation Learning on Satellite SAR Images",
+    "authors": [
+      {
+        "name": "Jaeho Moon"
+      },
+      {
+        "name": "Jeonghwan Yun"
+      },
+      {
+        "name": "Jaehyun Kim"
+      },
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      },
+      {
+        "name": "Munchurl Kim"
+      }
+    ],
+    "venue": "IEEE TCSVT 2026",
+    "topics": [
+      "Remote sensing",
+      "Reliable learning"
+    ],
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/TCSVT.2026.3701691"
+      },
+      {
+        "label": "Project",
+        "url": "https://kaist-viclab.github.io/DAKTer-site/"
+      }
+    ],
+    "search_aliases": [
+      "IEEE Transactions on Circuits and Systems for Video Technology"
+    ]
+  },
+  {
+    "id": "paper-cdiffset",
+    "code": "J7",
+    "type": "international-journal",
+    "group": "lab",
+    "year": 2026,
+    "title": "C-DiffSET: Leveraging Latent Diffusion for SAR-to-EO Image Translation with Confidence-Guided Reliable Object Generation",
+    "authors": [
+      {
+        "name": "Jeonghyeok Do"
+      },
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      },
+      {
+        "name": "Seungchul Lee"
+      },
+      {
+        "name": "Munchurl Kim"
+      }
+    ],
+    "venue": "IEEE TCSVT 2026",
+    "topics": [
+      "Remote sensing",
+      "Reliable learning"
+    ],
+    "resources": [
+      {
+        "label": "Project",
+        "url": "https://kaist-viclab.github.io/C-DiffSET_site/"
+      }
+    ],
+    "search_aliases": [
+      "IEEE Transactions on Circuits and Systems for Video Technology"
+    ]
+  },
+  {
+    "id": "paper-la-inr",
+    "code": "C10",
+    "type": "international-conference",
+    "group": "lab",
+    "year": 2026,
+    "title": "LA-INR: Variance-Guided Locally Adaptive Implicit Super-Resolution for Aerial Surveillance",
+    "authors": [
+      {
+        "name": "Minyoung Jeon",
+        "lab_member": true
+      },
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      }
+    ],
+    "venue": "AVSS 2026",
+    "topics": [
+      "Remote sensing",
+      "Reliable learning"
+    ],
+    "resources": [],
+    "search_aliases": [
+      "IEEE International Conference on Advanced Video and Signal-Based Surveillance"
+    ]
+  },
+  {
+    "id": "paper-perceptual-inr",
+    "code": "C9",
+    "type": "international-conference",
+    "group": "lab",
+    "year": 2026,
+    "title": "Toward Perceptual Realism in Aerial Imagery: An Uncertainty-Guided INR Approach",
+    "authors": [
+      {
+        "name": "Seunghyun Kim",
+        "lab_member": true
+      },
+      {
+        "name": "Minyoung Jeon",
+        "lab_member": true
+      },
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      }
+    ],
+    "venue": "AVSS 2026",
+    "topics": [
+      "Remote sensing",
+      "Reliable learning"
+    ],
+    "resources": [],
+    "search_aliases": [
+      "IEEE International Conference on Advanced Video and Signal-Based Surveillance"
+    ]
+  },
+  {
+    "id": "paper-rpm",
+    "code": "J6",
+    "type": "international-journal",
+    "group": "lab",
+    "year": 2026,
+    "title": "RPM: Robust PAN-Sharpening with Multi-Spectral Misalignment Correction",
+    "authors": [
+      {
+        "name": "Juheon Park",
+        "lab_member": true
+      },
+      {
+        "name": "Seunghyun Kim",
+        "lab_member": true
+      },
+      {
+        "name": "Minyoung Jeon",
+        "lab_member": true
+      },
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      }
+    ],
+    "venue": "IEEE GRSL 2026",
+    "topics": [
+      "Remote sensing"
+    ],
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/11393620"
+      }
+    ],
+    "search_aliases": [
+      "IEEE Geoscience and Remote Sensing Letters"
+    ]
+  },
+  {
+    "id": "paper-ov-circuits",
+    "code": "C8",
+    "type": "international-conference",
+    "group": "lab",
+    "year": 2026,
+    "title": "Mechanistic Dissection of Cross-Attention Subspaces in Text-to-Image Diffusion Models",
+    "authors": [
+      {
+        "name": "Jun-Hyun Bae"
+      },
+      {
+        "name": "Wonyong Jo"
+      },
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      },
+      {
+        "name": "Heechul Jung"
+      }
+    ],
+    "venue": "AAAI 2026",
+    "topics": [
+      "Image & video",
+      "Reliable learning"
+    ],
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39046"
+      },
+      {
+        "label": "Project",
+        "url": "https://junhyunb.github.io/projects/aaai2026-ov-circuits/"
+      }
+    ],
+    "search_aliases": [
+      "AAAI Conference on Artificial Intelligence"
+    ]
+  },
+  {
+    "id": "paper-street-to-orbit",
+    "code": "C7",
+    "type": "international-conference",
+    "group": "lab",
+    "year": 2026,
+    "title": "From Street to Orbit: Training-Free Cross-View Retrieval via Location Semantics and LLM Guidance",
+    "authors": [
+      {
+        "name": "Jeongho Min"
+      },
+      {
+        "name": "Dongyoung Kim"
+      },
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      }
+    ],
+    "venue": "WACV 2026",
+    "topics": [
+      "Remote sensing",
+      "Reliable learning"
+    ],
+    "resources": [
+      {
+        "label": "Project",
+        "url": "https://jeonghomin.github.io/street2orbit.github.io/"
+      }
+    ],
+    "search_aliases": [
+      "IEEE/CVF Winter Conference on Applications of Computer Vision"
+    ]
+  },
+  {
+    "id": "paper-panoramic",
+    "code": "J5",
+    "type": "international-journal",
+    "group": "lab",
+    "year": 2026,
+    "title": "Quantitative and Qualitative Evaluation of a Confidence-Aware Transformer-Based Super-Resolution Framework for Panoramic Radiographs",
+    "authors": [
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      },
+      {
+        "name": "Chang-Hyeon An"
+      },
+      {
+        "name": "Seo-Young An"
+      },
+      {
+        "name": "Eun-Kyong Kim"
+      },
+      {
+        "name": "Young-Eun Kwon"
+      }
+    ],
+    "venue": "International Dental Journal 2026",
+    "topics": [
+      "Image & video",
+      "Reliable learning"
+    ],
+    "resources": []
+  },
+  {
+    "id": "paper-pan-crafter",
+    "code": "C6",
+    "type": "international-conference",
+    "group": "lab",
+    "year": 2025,
+    "title": "PAN-Crafter: Learning Modality-Consistent Alignment for PAN-Sharpening",
+    "authors": [
+      {
+        "name": "Jeonghyeok Do"
+      },
+      {
+        "name": "Sungpyo Kim"
+      },
+      {
+        "name": "Geunhyuk Youk"
+      },
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      },
+      {
+        "name": "Munchurl Kim"
+      }
+    ],
+    "venue": "ICCV 2025",
+    "topics": [
+      "Remote sensing"
+    ],
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Do_PAN-Crafter_Learning_Modality-Consistent_Alignment_for_PAN-Sharpening_ICCV_2025_paper.html"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/KAIST-VICLab/PAN-Crafter"
+      },
+      {
+        "label": "Project",
+        "url": "https://kaist-viclab.github.io/PAN-Crafter_site/"
+      }
+    ],
+    "search_aliases": [
+      "IEEE/CVF International Conference on Computer Vision"
+    ]
+  },
+  {
+    "id": "paper-u-know-diffpan",
+    "code": "C5",
+    "type": "international-conference",
+    "group": "lab",
+    "year": 2025,
+    "title": "U-Know-DiffPAN: An Uncertainty-aware Knowledge Distillation Diffusion Framework with Details Enhancement for PAN-Sharpening",
+    "authors": [
+      {
+        "name": "Sungpyo Kim"
+      },
+      {
+        "name": "Jeonghyeok Do"
+      },
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      },
+      {
+        "name": "Munchurl Kim"
+      }
+    ],
+    "venue": "CVPR 2025",
+    "topics": [
+      "Remote sensing",
+      "Reliable learning"
+    ],
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Kim_U-Know-DiffPAN_An_Uncertainty-aware_Knowledge_Distillation_Diffusion_Framework_with_Details_Enhancement_CVPR_2025_paper.html"
+      },
+      {
+        "label": "Project",
+        "url": "https://kaist-viclab.github.io/U-Know-DiffPAN-site/"
+      }
+    ],
+    "search_aliases": [
+      "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+    ]
+  },
+  {
+    "id": "paper-abbspo",
+    "code": "C4",
+    "type": "international-conference",
+    "group": "lab",
+    "year": 2025,
+    "title": "ABBSPO: Adaptive Bounding Box Scaling and Symmetric Prior based Orientation Prediction for Detecting Aerial Image Objects",
+    "authors": [
+      {
+        "name": "Woojin Lee"
+      },
+      {
+        "name": "Hyugjae Chang"
+      },
+      {
+        "name": "Jaeho Moon"
+      },
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      },
+      {
+        "name": "Munchurl Kim"
+      }
+    ],
+    "venue": "CVPR 2025",
+    "topics": [
+      "Remote sensing",
+      "Reliable learning"
+    ],
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Lee_ABBSPO_Adaptive_Bounding_Box_Scaling_and_Symmetric_Prior_based_Orientation_CVPR_2025_paper.html"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/KAIST-VICLab/ABBSPO"
+      },
+      {
+        "label": "Project",
+        "url": "https://kaist-viclab.github.io/ABBSPO_site/"
+      }
+    ],
+    "search_aliases": [
+      "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+    ]
+  },
+  {
+    "id": "paper-u-set",
+    "code": "J4",
+    "type": "international-journal",
+    "group": "lab",
+    "year": 2025,
+    "title": "U-SET: Uncertainty-Aware SAR-to-EO Translation",
+    "authors": [
+      {
+        "name": "Minyoung Jeon",
+        "lab_member": true
+      },
+      {
+        "name": "Hyun-Ho Kim"
+      },
+      {
+        "name": "Juheon Park",
+        "lab_member": true
+      },
+      {
+        "name": "Doochun Seo"
+      },
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      }
+    ],
+    "venue": "IEEE SPL 2025",
+    "topics": [
+      "Remote sensing",
+      "Reliable learning"
+    ],
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://ieeexplore.ieee.org/document/11222869"
+      }
+    ],
+    "search_aliases": [
+      "IEEE Signal Processing Letters"
+    ]
+  },
+  {
+    "id": "paper-face-matting",
+    "code": "C3",
+    "type": "international-conference",
+    "group": "lab",
+    "year": 2025,
+    "title": "Uncertainty-Guided Face Matting for Occlusion-Aware Face Transformation",
+    "authors": [
+      {
+        "name": "Hyebin Cho"
+      },
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      }
+    ],
+    "venue": "ACM Multimedia 2025",
+    "topics": [
+      "Image & video",
+      "Reliable learning"
+    ],
+    "resources": []
+  },
+  {
+    "id": "paper-sgcl-set",
+    "code": "J3",
+    "type": "international-journal",
+    "group": "prior",
+    "year": 2024,
+    "title": "Segmentation-Guided Context Learning Using EO Object Labels for Stable SAR-to-EO Translation",
+    "authors": [
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      },
+      {
+        "name": "Hyun-Ho Kim"
+      },
+      {
+        "name": "Doochun Seo"
+      },
+      {
+        "name": "Munchurl Kim"
+      }
+    ],
+    "venue": "IEEE GRSL 2024",
+    "topics": [
+      "Remote sensing"
+    ],
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/LGRS.2023.3344804"
+      }
+    ],
+    "search_aliases": [
+      "IEEE Geoscience and Remote Sensing Letters"
+    ]
+  },
+  {
+    "id": "paper-cfca-set",
+    "code": "J2",
+    "type": "international-journal",
+    "group": "prior",
+    "year": 2023,
+    "title": "CFCA-SET: Coarse-to-Fine Context-Aware SAR-to-EO Translation With Auxiliary Learning of SAR-to-NIR Translation",
+    "authors": [
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      },
+      {
+        "name": "Hyebin Cho"
+      },
+      {
+        "name": "Doochun Seo"
+      },
+      {
+        "name": "Hyun-Ho Kim"
+      },
+      {
+        "name": "Jaeheon Jeong"
+      },
+      {
+        "name": "Munchurl Kim"
+      }
+    ],
+    "venue": "IEEE TGRS 2023",
+    "topics": [
+      "Remote sensing"
+    ],
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/TGRS.2023.3318980"
+      }
+    ],
+    "search_aliases": [
+      "IEEE Transactions on Geoscience and Remote Sensing"
+    ]
+  },
+  {
+    "id": "paper-sipsa-net",
+    "code": "C2",
+    "type": "international-conference",
+    "group": "prior",
+    "year": 2021,
+    "title": "SIPSA-Net: Shift-Invariant PAN Sharpening with Moving Object Alignment for Satellite Imagery",
+    "authors": [
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      },
+      {
+        "name": "Soomin Seo"
+      },
+      {
+        "name": "Munchurl Kim"
+      }
+    ],
+    "venue": "CVPR 2021 · Oral",
+    "topics": [
+      "Remote sensing"
+    ],
+    "resources": [],
+    "search_aliases": [
+      "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+    ]
+  },
+  {
+    "id": "paper-upsnet",
+    "code": "J1",
+    "type": "international-journal",
+    "group": "prior",
+    "year": 2020,
+    "title": "UPSNet: Unsupervised Pan-Sharpening Network With Registration Learning Between Panchromatic and Multi-Spectral Images",
+    "authors": [
+      {
+        "name": "Soomin Seo"
+      },
+      {
+        "name": "Jaeseok Choi"
+      },
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      },
+      {
+        "name": "Hyun-Ho Kim"
+      },
+      {
+        "name": "Doochun Seo"
+      },
+      {
+        "name": "Jaeheon Jeong"
+      },
+      {
+        "name": "Munchurl Kim"
+      }
+    ],
+    "venue": "IEEE Access 2020",
+    "topics": [
+      "Remote sensing"
+    ],
+    "resources": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/ACCESS.2020.3035802"
+      }
+    ]
+  },
+  {
+    "id": "paper-fpga-sr",
+    "code": "C1",
+    "type": "international-conference",
+    "group": "prior",
+    "year": 2020,
+    "title": "A CNN-Based Multi-scale Super-Resolution Architecture on FPGA for 4K/8K UHD Applications",
+    "authors": [
+      {
+        "name": "Yongwoo Kim"
+      },
+      {
+        "name": "Jae-Seok Choi"
+      },
+      {
+        "name": "Jaehyup Lee",
+        "lab_member": true
+      },
+      {
+        "name": "Munchurl Kim"
+      }
+    ],
+    "venue": "MMM 2020",
+    "topics": [
+      "Image & video"
+    ],
+    "resources": [],
+    "search_aliases": [
+      "Multimedia Modeling"
+    ]
+  }
+]
