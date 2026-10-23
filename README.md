@@ -42,7 +42,7 @@ Commit the JSON and generated `people/student/index.html` together. The student'
 
 ## Publication cards in news
 
-Publication news displays the same cards as `publications/index.html` directly below the announcement. That page is the source for titles, authors, venues, and available Paper/Code/Project links. News cards are generated into static HTML and work without JavaScript.
+Publication news reuses the titles, authors, venues, topics, and available Paper/Code/Project links from `publications/index.html` directly below the announcement. Abstracts and author-explanation paragraphs are omitted from news cards. News cards are generated into static HTML and work without JavaScript.
 
 After editing publication metadata, run:
 

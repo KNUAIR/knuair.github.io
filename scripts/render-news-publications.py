@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Embed Publications cards in news HTML, without a browser-side fetch.
+"""Embed compact Publications cards in news HTML, without a browser-side fetch.
 
 Edit publications/index.html, then run this script. News pages declare their
-paper IDs in <!-- related-publications: paper-id ... --> slots.
+paper IDs in <!-- related-publications: paper-id ... --> slots. Abstracts and
+author-explanation paragraphs are omitted from news cards.
 """
 
 import argparse
@@ -11,6 +12,7 @@ import re
 
 
 CARD = re.compile(r'<article\b[^>]*\bid="(paper-[^"]+)"[^>]*>.*?</article>', re.S)
+DETAIL = re.compile(r'<p class="publication-card__(?:abstract|note)">.*?</p>', re.S)
 SLOT = re.compile(
     r'<!-- related-publications: ([\w -]+) -->.*?<!-- /related-publications -->',
     re.S,
@@ -24,7 +26,7 @@ def render_pages(root):
         paper_id = match[1]
         if paper_id in cards:
             raise ValueError(f"Duplicate publication ID: {paper_id}")
-        cards[paper_id] = match[0]
+        cards[paper_id] = DETAIL.sub("", match[0])
     if not cards:
         raise ValueError("No publication cards found in publications/index.html")
 
