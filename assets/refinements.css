@@ -788,10 +788,30 @@ a {
 .gallery-empty { min-height: 34vh; }
 .gallery-empty p { margin: 0; color: #666; font-size: 20px; line-height: 1.6; }
 
-/* Student homepages: keep the name styling consistent with the list. */
-.person-card__name-link { color: inherit; text-decoration: none; }
-.person-card__name-link:hover { text-decoration: underline; text-underline-offset: 4px; }
-.person-card__name-link:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+/* Student homepages: a globe beside the plain-text name. */
+.person-card__name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.person-card__homepage {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 26px;
+  width: 26px;
+  height: 26px;
+  color: var(--muted);
+  text-decoration: none;
+  border-radius: 4px;
+}
+.person-card__homepage:hover { color: var(--accent); }
+.person-card__homepage:focus-visible {
+  color: var(--accent);
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+.person-card__homepage svg { display: block; }
 
 /* Reading comfort across long records and compact cards. */
 .professor-profile__body > p:first-child { max-width: 72ch; }
@@ -801,8 +821,6 @@ a {
 .publication-card--text .publication-card__authors { max-width: 95ch; }
 .news-item h3 + p { max-width: 80ch; }
 .news-filter select { min-height: 44px; }
-.person-card__name-link { text-decoration: underline; text-decoration-color: #aab6c5; text-underline-offset: 4px; }
-.person-card__name-link:hover { color: var(--accent); text-decoration-color: currentColor; }
 
 /* Slightly denser on large desktop displays; preserve laptop/mobile sizing. */
 @media (min-width: 1600px) {
